@@ -1,3 +1,10 @@
+// Rafael Macias
+// October 2, 2024
+// Project 1
+// CMPSCI-122-77814
+// Phase 2 Figure 2.10
+
+
 //#include <stdio.h>
 #include <iostream>
 

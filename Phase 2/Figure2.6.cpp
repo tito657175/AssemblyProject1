@@ -4,7 +4,6 @@
 // CMPSCI-122-77814
 // Figure 2.6: Phase 2
 
-//#include <stdio.h>
 #include <iostream>
 
 int main(){
