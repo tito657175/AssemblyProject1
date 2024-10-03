@@ -7,7 +7,7 @@
 #include <iostream>
 //Variables
 char letter;
-int power2 = 8;
+int power2 = 8; //initial 2^3
 int result = 0;
 
 int main(){
