@@ -5,22 +5,22 @@
 // Phase 2 Figure 2.13
 
 #include <iostream>
-
+//Variables
 char letter;
+int power2 = 8;
+int result = 0;
 
 int main(){
-    printf("Enter Four total 1's and 0's followed by *: \n");
+    printf("Enter four total 1's and 0's followed by *: \n");
     scanf("%c", &letter);
 
     while(letter != '*'){
-        if(letter == ' '){
-            printf("\n");
-        }
-        else {
-            printf("%c * power 2 = \n", letter);
+        if(letter == '1'){
+            result = result+power2;
         }
         scanf("%c", &letter); //scans next char
+        power2 = power2 / 2; //lower power number
     }
-    printf("\n");
+    printf("That is %d in Decimal\n", result);
     return 0;
 }
