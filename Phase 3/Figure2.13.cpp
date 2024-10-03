@@ -9,15 +9,17 @@
 char letter;
 
 int main(){
+    printf("Enter Four total 1's and 0's followed by *: \n");
     scanf("%c", &letter);
+
     while(letter != '*'){
         if(letter == ' '){
             printf("\n");
         }
         else {
-            printf("%c", letter);
+            printf("%c * power 2 = \n", letter);
         }
-        scanf("%c", &letter);
+        scanf("%c", &letter); //scans next char
     }
     printf("\n");
     return 0;
