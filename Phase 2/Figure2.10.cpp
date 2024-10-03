@@ -30,7 +30,7 @@ int main(){
             case 16: printf("Hexidecimal 0..F");
         }
     } else {
-        printf("You did not enter a base integer 2, 3, 8, 10, or 16.\nThis program will now self-destruct.\n<Insert that code here later>");
+        printf("You did not enter a base integer 2, 3, 8, 10, or 16.\nThis program will now self-destruct.\n<Insert that code later.>\n<Pending completion of that class lecture.>");
     }
     printf("\n");
 
